@@ -2,7 +2,7 @@
 // Google Fonts are cached the first time they load.
 
 const PREFIX = 'leitner-fr-';
-const VERSION = PREFIX + 'v1';
+const VERSION = PREFIX + 'v2';
 const SHELL = [
   './',
   'index.html',
