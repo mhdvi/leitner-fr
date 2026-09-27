@@ -212,6 +212,10 @@ kbd {
 #app {
   position: relative;
   min-height: 100dvh;
+  /* Cards and views slide past the screen edge while animating. Clip that overflow so it can't
+     change the page's scroll width (in RTL it would otherwise make the page jump). */
+  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 .view {
