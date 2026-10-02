@@ -20,6 +20,15 @@ python tools/serve.py        # http://localhost:8000
   - verbs show présent + passé composé (*il va · il est allé*).
 - **Pronunciation.** Uses the device's French voice (`fr-FR` preferred). Phonetics come from ipa-dict (Wiktionary).
 
+## Your own word lists
+
+Settings → Word lists lets you add your own words and study them in the same Leitner boxes.
+
+- **Adding a list.** Paste words or choose a CSV/TXT file, one `word, meaning` per line. The separator can be a comma, tab, `=`, `:` or `;`; extra columns are further meanings, and an optional last column in `/slashes/` is used as the phonetics. Write nouns with their article (*le chien*, *une maison*) and they're tinted by gender like the built-in words. There's a template to download, Excel's Windows-1256 Farsi files are read correctly, and a list holds up to 5,000 words.
+- **Studying.** New cards come from your enabled lists first, then from the built-in words. A word that is also in the built-in words is studied from your list, with your meaning. Quiz options for list words draw on the same list (when it has 12 or more words) and on the whole word bank.
+- **Switching on and off.** The built-in words and each list have a switch (at least one stays on). A switched-off list is paused and keeps its boxes. Deleting a list removes its words and their progress. Each list can be exported as CSV.
+- **Storage.** Lists are saved with your progress, so they're included in the backup file. Resetting progress keeps your lists.
+
 ## Data and licences
 
 - **FLELex**, CENTAL / UCLouvain: CC BY-NC-SA 4.0. Because of the non-commercial and share-alike terms, this app should stay free and non-commercial. Keep the attribution shown in Settings → About.
